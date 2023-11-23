@@ -1,9 +1,17 @@
-import http from 'http';
+import express, { response } from 'express';
 
-http.createServer((request, response) => {
-    response.writeHead(200, {'Content-Type': 'text/html'});
-    response.write('Hello World! hellohelllohello!!!!!!!');
-    response.end();
-}).listen(4000)
+const  app = express()
 
-// const print = require('gbm-pakki-print')
+app.get('/',(req, resp) => {
+    resp.send('blahblah');
+});
+
+app.get('/products:id([0-9]*)',(req, res) => {
+    console.log(req.params);
+    res.send('produkter');
+});
+
+app.listen(4242, () => {
+    
+    console.log("Express server kører....");
+});

@@ -5,3 +5,5 @@ http.createServer((request, response) => {
     response.write('Hello World!');
     response.end();
 }).listen(4000)
+
+const print = require('test-print')

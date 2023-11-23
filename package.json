@@ -1,5 +1,5 @@
 {
-  "name": "nodeproject",
+  "name": "test",
   "version": "20.10.0",
   "description": "First Node project",
   "main": "Nodeproject",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/GBM1986/Nodeproject#readme",
   "type": "module",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "test-print": "^0.0.4"
   }
 }

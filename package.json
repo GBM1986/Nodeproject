@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/GBM1986/Nodeproject/issues"
   },
-  "homepage": "https://github.com/GBM1986/Nodeproject#readme"
+  "homepage": "https://github.com/GBM1986/Nodeproject#readme",
+  "type": "module"
 }

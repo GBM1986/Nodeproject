@@ -1,0 +1,22 @@
+{
+  "name": "nodeproject",
+  "version": "20.10.0",
+  "description": "First Node project",
+  "main": "Nodeproject",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBM1986/Nodeproject.git"
+  },
+  "keywords": [
+    "Nodeproject"
+  ],
+  "author": "Gunnar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GBM1986/Nodeproject/issues"
+  },
+  "homepage": "https://github.com/GBM1986/Nodeproject#readme"
+}

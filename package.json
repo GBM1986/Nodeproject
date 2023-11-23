@@ -19,5 +19,8 @@
     "url": "https://github.com/GBM1986/Nodeproject/issues"
   },
   "homepage": "https://github.com/GBM1986/Nodeproject#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
